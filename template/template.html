@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Multi span Beam Analysis Report</title>
+</head>
+<body style="text-align:center ;">
+    <h1>Multi span Beam Analysis Report</h1>
+    <br><br><br>
+    <hr>
+    <h3>Section properties</h3>
+    <br><br>
+    <p>{{temp_section_props}}</p>
+    <br><br>
+    <hr>
+    <br><br>
+    <h3>Diagrams</h3>
+    <br><br>
+    <h4>Shear Diagram</h4>
+    <br><br>
+    <img src="shear.png" alt=""style="width:700px;height:400px;">
+    <br><br>
+    <h4>Moment Diagram</h4>
+    <br><br>
+    <img src="moment.png" alt=""style="width:700px;height:400px;">
+    <br><br>
+    <h4>Deflection Diagram</h4>
+    <br><br>
+    <img src="deflections.png" alt=""style="width:700px;height:400px;">
+    <br><br>
+    <hr>
+    <br><br>
+    <h3>Reactions</h3>
+    <br><br>
+    <p>{{temp_reaction}}</p>
+    <br><br>
+    <hr>
+    <h3>Fonctions</h3>
+    <br><br>
+    <p>V(x) = {{temp_shear}}</p>
+    <br><br>
+    <p>M(x) = {{temp_moment}}</p>
+    <br><br>
+    <p>EI*tetha(x) = {{temp_slope}}</p>
+    <br><br>
+    <p>EI*deflection(x) = {{temp_deflection}}</p>
+    <br><br>
+    <hr>
+    <br><br>
+    <h3>Section Check</h3>
+    <br><br>
+    <p>{{temp_check}}</p>
+</body>
+</html>
